@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to {{appName}}</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f4f4f4;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f4f4;padding:40px 0;">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+
+          <!-- Header -->
+          <tr>
+            <td align="center" style="background-color:#1A1A2E;padding:32px 40px;">
+              {{#if logoUrl}}
+              <img src="{{logoUrl}}" alt="{{appName}}" width="60" height="60" style="display:block;margin:0 auto 16px;border-radius:12px;" />
+              {{/if}}
+              <h1 style="margin:0;color:#C9A84C;font-size:22px;font-weight:700;letter-spacing:0.5px;">{{appName}}</h1>
+              <p style="margin:6px 0 0;color:#a0a0b0;font-size:13px;letter-spacing:0.3px;">Islamic Matrimonial</p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:40px 48px 32px;">
+              <h2 style="margin:0 0 16px;color:#1A1A2E;font-size:20px;font-weight:700;">Welcome, {{name}}! 🌙</h2>
+              <p style="margin:0 0 20px;color:#555555;font-size:15px;line-height:1.6;">
+                Your email has been verified and your account is now active. We're honoured to have you join our community.
+              </p>
+              <p style="margin:0 0 20px;color:#555555;font-size:15px;line-height:1.6;">
+                {{appName}} is built on the values of trust, respect, and sincerity — helping you find a partner the halal way.
+              </p>
+
+              <!-- Steps box -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:28px;background-color:#f9f9f9;border-radius:8px;border-left:4px solid #C9A84C;">
+                <tr>
+                  <td style="padding:20px 24px;">
+                    <p style="margin:0 0 12px;color:#1A1A2E;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;">Getting started</p>
+                    <p style="margin:0 0 8px;color:#555555;font-size:14px;line-height:1.6;">&#10003; &nbsp;Complete your profile to become visible to potential matches</p>
+                    <p style="margin:0 0 8px;color:#555555;font-size:14px;line-height:1.6;">&#10003; &nbsp;Upload a profile picture for approval</p>
+                    <p style="margin:0;color:#555555;font-size:14px;line-height:1.6;">&#10003; &nbsp;Browse and connect with compatible matches</p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:0;color:#555555;font-size:14px;line-height:1.6;">
+                May Allah bless your journey and guide you to a righteous and loving partner.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="padding:0 48px;"><hr style="border:none;border-top:1px solid #eeeeee;margin:0;" /></td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#f9f9f9;padding:24px 48px;border-radius:0 0 8px 8px;">
+              <p style="margin:0;color:#bbbbbb;font-size:12px;">&copy; {{appName}}. All rights reserved.</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile complete</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f4f4f4;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f4f4;padding:40px 0;">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+
+          <!-- Header -->
+          <tr>
+            <td align="center" style="background-color:#1A1A2E;padding:32px 40px;">
+              {{#if logoUrl}}
+              <img src="{{logoUrl}}" alt="{{appName}}" width="60" height="60" style="display:block;margin:0 auto 16px;border-radius:12px;" />
+              {{/if}}
+              <h1 style="margin:0;color:#C9A84C;font-size:22px;font-weight:700;letter-spacing:0.5px;">{{appName}}</h1>
+              <p style="margin:6px 0 0;color:#a0a0b0;font-size:13px;letter-spacing:0.3px;">Islamic Matrimonial</p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:40px 48px 32px;">
+              <h2 style="margin:0 0 16px;color:#1A1A2E;font-size:20px;font-weight:700;">Your profile is 100% complete! 🎉</h2>
+              <p style="margin:0 0 12px;color:#444444;font-size:15px;line-height:1.6;">Congratulations, <strong>{{name}}</strong>!</p>
+              <p style="margin:0 0 28px;color:#555555;font-size:15px;line-height:1.6;">
+                You've completed your {{appName}} profile. Your profile is now fully visible to potential matches in our community.
+              </p>
+
+              <!-- Highlight box -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:28px;background-color:#fdf8ee;border-radius:8px;border-left:4px solid #C9A84C;">
+                <tr>
+                  <td style="padding:20px 24px;">
+                    <p style="margin:0 0 10px;color:#1A1A2E;font-size:14px;font-weight:700;">What happens next?</p>
+                    <p style="margin:0 0 8px;color:#555555;font-size:14px;line-height:1.6;">&#10003; &nbsp;Your profile is visible to compatible matches</p>
+                    <p style="margin:0 0 8px;color:#555555;font-size:14px;line-height:1.6;">&#10003; &nbsp;You can now send and receive chat requests</p>
+                    <p style="margin:0;color:#555555;font-size:14px;line-height:1.6;">&#10003; &nbsp;Browse profiles and find your perfect match</p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:0;color:#555555;font-size:14px;line-height:1.6;">
+                May Allah make this journey easy for you and bless you with a righteous partner.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="padding:0 48px;"><hr style="border:none;border-top:1px solid #eeeeee;margin:0;" /></td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#f9f9f9;padding:24px 48px;border-radius:0 0 8px 8px;">
+              <p style="margin:0;color:#bbbbbb;font-size:12px;">&copy; {{appName}}. All rights reserved.</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
